@@ -4,3 +4,5 @@ mkdir -p res
 wget -c -nc https://logstash.objects.dreamhost.com/release/logstash-1.1.13-flatjar.jar -O res/logstash-1.1.13-flatjar.jar
 
 git clone https://github.com/elasticsearch/kibana.git res/kibana
+cd res/kibana/
+git co tags/v3.0.0milestone2
